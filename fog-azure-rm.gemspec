@@ -18,8 +18,8 @@ Gem::Specification.new do |spec|
   spec.extra_rdoc_files = %w[README.md]
   spec.required_ruby_version = '>= 2.0.0'
   spec.post_install_message = 'Thanks for installing!'
-  spec.add_development_dependency 'rake', '~> 10.0'
-  spec.add_development_dependency 'minitest', '~> 5.8.4'
+  spec.add_development_dependency 'rake', '>= 12.0'
+  spec.add_development_dependency 'minitest', '~> 5.0'
   spec.add_development_dependency 'simplecov'
   spec.add_development_dependency 'codeclimate-test-reporter' , '~> 1.0.0'
   spec.add_dependency 'fog-core', '>= 1.43'
