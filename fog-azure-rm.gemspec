@@ -36,4 +36,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'azure-storage-blob', '~> 1.1'
   spec.add_dependency 'vhd', '0.0.4'
   spec.add_dependency 'mime-types', '~> 3.0'
+  spec.add_dependency 'base64'
 end
